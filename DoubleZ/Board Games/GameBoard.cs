@@ -14,7 +14,7 @@ namespace DoubleZ.BoardGames
     /// A board for board games.
     /// </summary>
     /// <typeparam name="T">The type of the (usually abstract) object which will be placed on the board</typeparam>
-    public class GameBoard<T> where T : class, IPlaceable<T> 
+    public class GameBoard<T> where T : class, IPlaceable<T>
     {
         public Cell<T>[,] Board { get; set; }
         public int XSize { get; }
@@ -34,7 +34,7 @@ namespace DoubleZ.BoardGames
 
         public void RemoveAt(Point point)
         {
-            if(IsOnBoard(point))
+            if (IsOnBoard(point))
             {
                 Board.FromPoint(point).Piece.Cell = null;
                 Board.FromPoint(point).Piece = null;
@@ -54,6 +54,32 @@ namespace DoubleZ.BoardGames
             Board.FromPoint(finish).Piece = Board.FromPoint(start).Piece;
             Board.FromPoint(finish).Piece.Cell = Board.FromPoint(finish);
             Board.FromPoint(start).Piece = null;
+        }
+
+        /// <summary>
+        /// Simulates a move and implements a delegate method
+        /// </summary>
+        /// <param name="action">The method to implement</param>
+        public bool Simulate<T1>(Point start, Point finish, Func<T1, bool> simulation, T1 parameter)
+        {
+            //Makes a backup of start piece and cell links.
+            Cell<T> pieceCell = Board.FromPoint(finish);
+            T cellPiece = Board.FromPoint(finish).Piece;
+
+            //Makes the move.
+            Move(start, finish);
+
+            bool simulationReturn = simulation(parameter);
+
+            //Resets the move.
+            Move(finish, start);
+
+            //Revert changes.
+            Board.FromPoint(finish).Piece = cellPiece;
+            if (cellPiece != null)
+                Board.FromPoint(finish).Piece.Cell = pieceCell;
+
+            return simulationReturn;
         }
 
         /// <summary>

@@ -3,9 +3,9 @@ using System.Drawing;
 
 namespace DoubleZ.Input
 {
-    class Read
+    public class Read
     {
-        static Point Coords(int xBound, int yBound)
+        public static Point Coords(int xBound, int yBound)
         {
             Point coords = new Point();
             string s = Console.ReadLine().ToUpper().Replace(" ", "");
