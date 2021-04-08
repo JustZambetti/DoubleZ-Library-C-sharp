@@ -13,7 +13,7 @@ namespace DoubleZ.BoardGames
     /// <summary>
     /// A board for board games.
     /// </summary>
-    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="T">The type of the (usually abstract) object which will be placed on the board</typeparam>
     public class GameBoard<T> where T : class, IPlaceable<T> 
     {
         public Cell<T>[,] Board { get; set; }

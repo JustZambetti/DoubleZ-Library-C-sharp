@@ -7,3 +7,12 @@ D:\GIORGIO\Dati\Visual Studio Data\C# Data\DoubleZ\DoubleZ\obj\Debug\netstandard
 D:\GIORGIO\Dati\Visual Studio Data\C# Data\DoubleZ\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.dll
 D:\GIORGIO\Dati\Visual Studio Data\C# Data\DoubleZ\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.pdb
 D:\GIORGIO\Dati\Visual Studio Data\C# Data\DoubleZ\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.csprojAssemblyReference.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\bin\Debug\netstandard2.0\DoubleZ.deps.json
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\bin\Debug\netstandard2.0\DoubleZ.dll
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\bin\Debug\netstandard2.0\DoubleZ.pdb
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.csprojAssemblyReference.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.AssemblyInfoInputs.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.AssemblyInfo.cs
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.csproj.CoreCompileInputs.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.dll
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\obj\Debug\netstandard2.0\DoubleZ.pdb
