@@ -52,7 +52,8 @@ namespace DoubleZ.BoardGames
         public void Move(Point start, Point finish)
         {
             Board.FromPoint(finish).Piece = Board.FromPoint(start).Piece;
-            Board.FromPoint(finish).Piece.Cell = Board.FromPoint(finish);
+            if(Board.FromPoint(finish).Piece != null)
+                Board.FromPoint(finish).Piece.Cell = Board.FromPoint(finish);
             Board.FromPoint(start).Piece = null;
         }
 
