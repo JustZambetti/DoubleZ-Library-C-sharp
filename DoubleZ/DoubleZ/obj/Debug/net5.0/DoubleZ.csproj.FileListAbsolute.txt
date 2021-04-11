@@ -1,0 +1,12 @@
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\bin\Debug\net5.0\DoubleZ.deps.json
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\bin\Debug\net5.0\DoubleZ.dll
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\bin\Debug\net5.0\ref\DoubleZ.dll
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\bin\Debug\net5.0\DoubleZ.pdb
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.csprojAssemblyReference.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.AssemblyInfoInputs.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.AssemblyInfo.cs
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.csproj.CoreCompileInputs.cache
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.dll
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\ref\DoubleZ.dll
+D:\GIORGIO\Dati\GitHub Repositories\DoubleZ-Library\DoubleZ\DoubleZ\obj\Debug\net5.0\DoubleZ.pdb
